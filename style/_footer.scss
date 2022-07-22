@@ -1,0 +1,56 @@
+.footer {
+  margin-top: 140px;
+  padding-bottom: 90px;
+  background: #fafafa;
+  padding-top: 88px;
+
+  &__logo a img {
+    padding-left: 125px;
+    margin-bottom: 32px;
+  }
+
+  &__masangers {
+    padding-left: 112px;
+    display: flex;
+
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  hr {
+    max-width: 327px;
+    background: #dadada;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__nav {
+    h4 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-family: "Karla";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 15px;
+      text-align: center;
+      letter-spacing: 1.5px;
+
+      color: #837d88;
+    }
+
+    ul li {
+      list-style: none;
+      font-family: "Karla";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 15px;
+      text-align: center;
+      letter-spacing: 1.5px;
+
+      color: #2d2641;
+      margin-bottom: 16px;
+    }
+  }
+}

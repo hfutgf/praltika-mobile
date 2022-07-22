@@ -1,0 +1,74 @@
+.main-section1 {
+  display: flex;
+  flex-direction: column;
+
+  &__img {
+    background: #2d2641;
+  }
+
+  &__info {
+    background: #2d2641;
+    min-height: 500px;
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h2 {
+      font-family: "DM Serif Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 48px;
+      /* or 100% */
+
+      text-align: center;
+      letter-spacing: -0.666667px;
+
+      color: #ffffff;
+
+      margin-top: 93px;
+    }
+
+    p {
+      max-width: 292px;
+      font-family: "Karla";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+
+      text-align: center;
+
+      color: #ffffff;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    div {
+      transform: translateX(83px);
+    }
+  }
+}
+
+.project__button {
+  text-decoration: none;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+
+  color: #ffffff;
+  border: 1.5px solid #ffffff;
+
+  padding: 13px 29px;
+}
+
+.project__button:hover {
+  background: #2c2830;
+  border: 1.5px solid #2c2830;
+}

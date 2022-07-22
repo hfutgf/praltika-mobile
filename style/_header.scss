@@ -1,0 +1,12 @@
+.header{
+    padding: 31px 24px;
+    display: flex;
+
+    &__right{
+        display: none;
+
+        a{
+            text-align: none;
+        }
+    }
+}

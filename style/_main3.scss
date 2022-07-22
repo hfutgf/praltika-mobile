@@ -1,0 +1,43 @@
+.main-section3 {
+  background: #2d2641;
+  min-height: 344px;
+  padding-top: 72px;
+  margin-top: 140px;
+  h3 {
+    max-width: 279px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    text-align: center;
+    letter-spacing: -0.555556px;
+
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  div{
+    margin: 20px;
+    transform: translateX(83px);
+  }
+
+  a {
+    background: #2d2641;
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    border: 1.5px solid #ffffff;
+    color: #ffffff;
+    padding: 13px 25px;
+    text-decoration: none;
+    
+  }
+}
